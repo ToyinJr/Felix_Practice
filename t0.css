@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt1 {
+    color: #778CA0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#logo-text {
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 32px;
+}
+
+.btn1 {
+    background: rgba(81, 56, 238, 0.06);
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav1, #nav2, #nav3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width :570px){
+    #nav1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-section {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+.btn1 {
+    background: rgba(81, 56, 238, 0.06);
+}
+
+
+
+
+/* ------------------------------------------------ */
+.section2 {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.txt2 {
+color: #289BDC;
+font-size: 1vmax;
+}
+
+.txt3 {
+    color: #00284B;
+    font-size: 7vw;
+}
+
+.txt4 {
+    color: #778CA0;
+    /* font-size: 1.2vmax; */
+}
+
+/*-----------------------------------------------------*/
+.section3 {
+    padding: 20px;
+    padding-bottom: 50px;
+    background: rgba(94, 198, 232, 0.08);
+}
+
+.txt5 {
+    color: #00284B;
+    font-size: 3.5vw;
+}
+
+.card-section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.txt6 {
+    color: #C8D2DC;
+}
+
+.txt7 {
+    font-size: 2.5vw;
+    color: #289BDC;
+}
+
+
+.index {
+    display: none;
+}
+
+.index {
+    position: absolute;
+    z-index: -1;
+}
+
+.z-img{
+    left: 310px;
+    top: 750px;
+    width: 230px;
+}
+
+.z-img1{
+top: 800px;
+left: 910px;
+}
+
+
+.z-img2{
+top: 800px;
+left: 960px;
+}
+
+.z-img3{
+top: 800px;
+left: 1010px;
+}
+
+.z-img4{
+top: 800px;
+left: 1060px;
+}
+
+.z-img5{
+top: 730px;
+left: 1050px;
+}
+
+
+/*---------------------------------------------------*/
+.section4{
+    padding: 20px;
+}
+
+.txt8 {
+    font-size: 2.5vw;
+}
+
+.card-section2 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.txt9 {
+    font-size: 2vw;
+}
+
+/*------------------------------------------------------------*/
+.section5{
+    padding: 20px;
+}
+
+.txt10 {
+    font-size: 6vw;
+}
+
+/*-------------------------------------------------------------------*/
+.section6 {
+    padding: 20px;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.c1a {
+}
+
+.c1b {
+    align-self: flex-end;
+    margin-top: 50px;
+}
+
+/*-------------------------------------------------------------------*/
+.section7{
+    padding: 20px;
+}
+
+/*-------------------------------------------------------------------*/
+.section8 {
+    padding: 20px;
+}
+
+.txt10_5 {
+    font-size: 1.5vw;
+}
+
+.txt11 {
+    color: #289BDC;
+}
+
+.team-section {
+    padding-top: 30px;
+}
+
+.team-members {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.team-member-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-member-name {
+    color: #00284B;
+}
+
+.team-member-tag {
+    color: #289BDC;
+}
+
+.card-body-team {
+    text-align: start;
+}
+
+.team-socials {
+ padding-left: 20px;
+}
+
+.team-socials > a {
+    color: #778CA0;
+}
+
+.team-socials-twitter {
+    padding-right: 20px;
+}
+
+
+.card-body-team {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-socials {
+    align-self: flex-start;
+}
+
+
+
+/*-------------------------------------------------------------------*/
+.section9 {
+    padding: 20px;
+}
+
+/* .brands {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+} */
+
+/*-------------------------------------------------------------------*/
+.section10 {
+    padding: 20px;
+}
+
+.testimonial1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgba(94, 198, 232, 0.08);
+}
+
+.bi-star-fill {
+    color: #289BDC;
+}
+
+.card-body2 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.testimonial2 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/*-------------------------------------------------------------------*/
+.section11 {
+    padding-top: 20px;
+}
+
+.smth {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.box > .card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0C014F;
+}
+
+.input-stuff {
+    padding-top: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bullets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*-------------------------------------------------------------------*/
+.section12 {
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.features2 > a {
+    padding-top: 5px;
+}
+
+.features > a > span {
+    color: #00284B;
+}
+
+/*-------------------------------------------------------------------*/
+.section13 {
+    padding: 20px;
+}
+
+.about > div > a {
+    color: #778CA0;
+}
+
+.socials > a {
+    color: #778CA0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .card-section, .team-members, .testimonial1{
+        flex-direction: column;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .bullets {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index {
+        display: none;
+    }
+
+    .bt {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sample1 {
+        padding-top: 20px;
+    }
+
+    .features {
+        transform: scale(0.8);
+    }
+
+    .num, .fe {
+        width: 250%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-stuff{
+        width: 80%;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .c1 {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .c1b {
+        margin-top: 0px;
+        align-self: center;
+        padding-top: 15px;
+    }
+
+    .people-text {
+        font-size: 1.4vmax;
+        
+    }
+}
